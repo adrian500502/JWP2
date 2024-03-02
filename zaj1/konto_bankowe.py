@@ -21,7 +21,6 @@ class KontoBankowe:
         print(f"Stan konta: {self.__stan_konta} PLN.")
 
 # Użycie klasy
-# test commit
 konto = KontoBankowe('123456789', 1000)
 konto.wplac_pieniadze(500)
 konto.wyplac_pieniadze(200)
